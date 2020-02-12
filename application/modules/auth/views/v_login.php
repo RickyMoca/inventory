@@ -1,7 +1,7 @@
 <!-- BEGIN LOGIN -->
 <div class="content">
 	<!-- BEGIN LOGIN FORM -->
-	<form class="login-form" action="index.html" method="post">
+	<form class="login-form" action="<?= base_url(); ?>barang/data" method="post">
 		<h3 class="form-title">Sign In</h3>
 		<div class="alert alert-danger display-hide">
 			<button class="close" data-close="alert"></button>
@@ -24,7 +24,7 @@
 		</div>
 		<div class=" create-account">
 			<p>
-				<a href="javascript:;" id="register-btn" class="uppercase">Belum Punya account ?</a>
+				<a href="<?= base_url(); ?>auth/regist" id="register-btn" class="uppercase">Belum Punya account ?</a>
 			</p>
 		</div>
 	</form>

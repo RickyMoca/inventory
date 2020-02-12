@@ -1,5 +1,5 @@
 <div class="copyright">
-	2020 © Digital Winning. Login User By MOhamad Ricky.
+	2020 © Digital Winning. Authentikasi page <boold>By Mohamad Ricky.</boold>
 </div>
 <!-- END LOGIN -->
 <!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->

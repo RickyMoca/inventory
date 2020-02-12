@@ -1,7 +1,7 @@
 <!-- BEGIN LOGIN -->
 <div class="content">
 	<!-- BEGIN LOGIN FORM -->
-	<form class="login-form" action="index.html" method="post">
+	<form class="login-form" action="<?= base_url(); ?>auth/login" method="post">
 		<h3 class="form-title">Daftar Akun</h3>
 		<div class="alert alert-danger display-hide">
 			<button class="close" data-close="alert"></button>
@@ -21,13 +21,13 @@
 			<input class="form-control form-control-solid placeholder-no-fix" type="password" autocomplete="off" placeholder="Password" name="password" />
 		</div>
 		<div class="form-group">
-			<button type="submit" class="btn green btn-block">Login</button>
+			<button type="submit" class="btn green btn-block">Daftar Sekarang</button>
 			<br>
-			<center><a href="javascript:;" id="forget-password">Forgot Password?</a></center>
+			<center><a href="<?= base_url(); ?>auth/login" id="forget-password">Sudah punya akun ?</a></center>
 		</div>
 		<div class=" create-account">
 			<p>
-				<a href="javascript:;" id="register-btn" class="uppercase">Belum Punya account ?</a>
+				<sapan class="label blue uppercase">silahkan hubungin admin jika ada kendala !</sapan>
 			</p>
 		</div>
 	</form>
