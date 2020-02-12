@@ -1,4 +1,5 @@
 <!-- BEGIN REGISTRATION FORM -->
+
 <form class="register-form" action="index.html" method="post">
 	<h3>Sign Up</h3>
 	<p class="hint">
